@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Unite7_Veritabani</string>
+    <string name="unite_7_database">Unite 7 - Veritabanı</string>
+    <string name="uygulama_1">Uygulama 1</string>
+    <string name="uygulama_7">Uygulama 7</string>
+    <string name="uygulama_5">Uygulama 5</string>
+    <string name="uygulama_4">Uygulama 4</string>
+    <string name="uygulama_2">Uygulama 2</string>
+    <string name="uygulama_10">Uygulama 10</string>
+    <string name="uygulama_6">Uygulama 6</string>
+    <string name="s_ra_sizde">Sıra Sizde ()</string>
+    <string name="uygulama_3">Uygulama 3</string>
+    <string name="uygulama_9">Uygulama 9</string>
+    <string name="uygulama_12">Uygulama 12</string>
+    <string name="uygulama_8">Uygulama 8</string>
+    <string name="uygulama_13">Uygulama 13</string>
+    <string name="uygulama_11">Uygulama 11</string>
+</resources>

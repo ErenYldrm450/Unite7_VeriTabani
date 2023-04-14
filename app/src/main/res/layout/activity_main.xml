@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="392dp"
+        android:layout_height="48dp"
+        android:fontFamily="monospace"
+        android:text="@string/unite_7_database"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/uygulama10Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama10Click"
+        android:text="@string/uygulama_10"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <Button
+        android:id="@+id/uygulama11Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama11Click"
+        android:text="@string/uygulama_11"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama10Btn"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/uygulama8Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama8Click"
+        android:text="@string/uygulama_8"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama7Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uygulama3Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama3Click"
+        android:text="@string/uygulama_3"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama2Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uygulama4Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama4Click"
+        android:text="@string/uygulama_4"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama3Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uygulama2Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama2Click"
+        android:text="@string/uygulama_2"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama1Btn"
+        app:layout_constraintVertical_bias="0.002" />
+
+    <Button
+        android:id="@+id/uygulamaSS1"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/yellow"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="SiraSizde"
+        android:text="@string/s_ra_sizde"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama13Btn"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <Button
+        android:id="@+id/uygulama1Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama1Click"
+        android:text="@string/uygulama_1"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <Button
+        android:id="@+id/uygulama6Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama6Click"
+        android:text="@string/uygulama_6"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama5Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uygulama7Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama7Click"
+        android:text="@string/uygulama_7"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama6Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uygulama5Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama5Click"
+        android:text="@string/uygulama_5"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama4Btn"
+        app:layout_constraintVertical_bias="0.003" />
+
+    <Button
+        android:id="@+id/uygulama9Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama9Click"
+        android:text="@string/uygulama_9"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama7Btn"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <Button
+        android:id="@+id/uygulama12Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama12Click"
+        android:text="@string/uygulama_12"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama11Btn"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/uygulama13Btn"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:backgroundTint="@color/green"
+        android:fontFamily="sans-serif-condensed"
+        android:onClick="Uygulama13Click"
+        android:text="@string/uygulama_13"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.875"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uygulama12Btn"
+        app:layout_constraintVertical_bias="0.002" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

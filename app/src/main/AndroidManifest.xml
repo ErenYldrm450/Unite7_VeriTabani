@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.unite7_veritabani">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Unite7_Veritabani"
+        tools:targetApi="31">
+        <activity
+            android:name=".SiraSizde"
+            android:label="@string/s_ra_sizde"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg13Activity"
+            android:label="@string/uygulama_13"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg12Activity"
+            android:label="@string/uygulama_12"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg11Activity"
+            android:label="@string/uygulama_11"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg10Activity"
+            android:label="@string/uygulama_10"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg9Activity"
+            android:label="@string/uygulama_9"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg8Activity"
+            android:label="@string/uygulama_8"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg7Activity"
+            android:label="@string/uygulama_7"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg6Activity"
+            android:label="@string/uygulama_6"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg5Activity"
+            android:label="@string/uygulama_5"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg4Activity"
+            android:label="@string/uygulama_4"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg3Activity"
+            android:label="@string/uygulama_3"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg2Activity"
+            android:label="@string/uygulama_2"
+            android:exported="false" />
+        <activity
+            android:name=".Uyg1Activity"
+            android:label="@string/uygulama_1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:label="Ana Sayfa"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
